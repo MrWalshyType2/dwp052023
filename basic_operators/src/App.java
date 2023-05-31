@@ -47,6 +47,11 @@ public class App {
         System.out.println("false && foo(): " + (false && foo())); // short-circuits
         System.out.println(4);
         System.out.println("true  && foo(): " + (true && foo()));
+
+        System.out.println("The ! (not) operator");
+        // ! inverts a boolean, !true is false and !false is true
+        System.out.println("!true = " + !true);
+        System.out.println("!false = " + !false);
     }
 
     public static boolean foo() {
