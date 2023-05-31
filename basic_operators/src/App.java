@@ -35,6 +35,7 @@ public class App {
         // & = AND: Both the left and right need to be true to evaluate to true, both sides are always checked
         // ^ = XOR: Either the left is true or the right is true, but not both to return true.
         System.out.println("true OR false = " + (true | false));
+        System.out.println("true OR foo() = " + (true | foo())); // Logical OR does not short-circuit
 
         System.out.println("SHORT CIRCUIT: ||, &&");
         // || = OR: Returns true if either value is true. Does not check the right side if the left is true
