@@ -9,6 +9,7 @@ public class App {
         //   which defines a block
         int day = 2;
 
+        // lexical scoping
         if (day == 1) {
             // if (day == 1) scope starts
             String theDay = "Monday";
