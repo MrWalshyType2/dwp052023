@@ -1,2 +1,4 @@
-package com.qa;public class Vehicle {
+package com.qa;
+
+public class Vehicle {
 }
