@@ -8,6 +8,7 @@ package com.qa.model;
 
 public class User {
     // field/instance variable
+    // - information hiding via private modifier
     private String username;
 
     public User() {
@@ -20,6 +21,7 @@ public class User {
     // instance methods
     // - getter and setters methods get and set
     //   data respectively
+    // - encapsulation: methods that act upon data
     public String getUsername() {
         return username;
     }
