@@ -6,12 +6,13 @@ package com.qa;
 //   but above the class declaration
 import com.qa.model.User;
 
+import java.util.List;
+
 public class App {
 
     public static void main(String[] args) {
         User user = new User();
         user.setUsername(null);
-
         System.out.println("USERNAME: " + user.getUsername());
     }
 }
