@@ -43,4 +43,5 @@ public class CalculatorTest {
         // Assert
         Assertions.assertEquals(expectedResult, actualResult);
     }
+
 }
